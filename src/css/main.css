@@ -1,0 +1,42 @@
+/* styles.css */
+
+/* styles.css */
+
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --gray: #808080;
+    --red: #ff0000;
+    --green: #00ee0098;
+    --blue: #0000ff;
+    /* Add more colors as needed */
+  }
+  
+
+body {
+    margin: 5;
+    padding: 0;
+    background-color: var(--black); /* Black background */
+    font-family: 'Press Start 2P', cursive; /* Retro font */
+    color: var(--white); /* White text */
+  }
+  
+  canvas {
+    display: block;
+    margin: 0 auto;
+    background-color: var(--black);
+    image-rendering: pixelated; /* Pixelated rendering */
+    image-rendering: crisp-edges;
+  }
+  
+  /* Optional: Center the canvas vertically */
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
